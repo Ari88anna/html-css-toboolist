@@ -8,14 +8,15 @@
       background-color: aquamarine;
   }
   /* header */
-  header img{
+  header{
       background-color: white;
-      ;
+      vertical-align: middle;
   }
 
   header span{
       font-size: 30px;
-      font-family: Arial;            
+      font-family: Arial;  
+      vertical-align: middle ;       
   }
  /* fine header */
 
@@ -23,9 +24,12 @@
  .container{
      background-color: white;;
      width: 1024px;
-     margin:auto;  
-     padding:20px;   
+     margin:20px auto;  
+     padding:20px; 
+
+     border-bottom: 2px solid aquamarine;      
  }
+ 
  
  section span{
      width:50px;
@@ -44,6 +48,17 @@
      background-color: white;
      border: 1px solid black;
  }
+
+ .list{
+     margin:30px;
+     
+ }
+
+ section ul{
+     list-style-type: none;
+ }
+
+ 
  /* fine main */
 
  
