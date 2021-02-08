@@ -5,12 +5,13 @@
   }
 
   body{
-      background-color: aquamarine;
+      background-color: lavender;
   }
   /* header */
   header{
       background-color: white;
-      vertical-align: middle;
+      
+      vertical-align: auto;      
   }
 
   header span{
@@ -24,42 +25,50 @@
  .container{
      background-color: white;;
      width: 1024px;
-     margin:20px auto;  
-     padding:20px; 
-
-     border-bottom: 2px solid aquamarine;      
+     margin:30px auto;  
+     padding:20px;         
  }
- 
- 
+
+  .add{
+    border-bottom: 2px solid lavender; 
+    padding:10px;
+  }
+
  section span{
      width:50px;
      height:20px;
      margin:30px;
      border-radius:10%;
      padding: 5px;  
-     color:grey;
  }
 
  .task{
-     background-color: blue;
+     background-color: lightskyblue;
+     margin:0px;
+     color:white;
  }
 
  .button{
      background-color: white;
-     border: 1px solid black;
+     border: 1px solid lightgrey;
+     margin-left: 0px;
+     color:grey;
  }
 
+
+/* lista */
  .list{
-     margin:30px;
-     
+     margin-top:30px;     
  }
 
  section ul{
      list-style-type: none;
      margin:10px;
  }
+
  li{
-     margin:10px;
+     margin:20px;
+     
  }
 
  .blackdown{
@@ -73,7 +82,7 @@
      height: 1px;
      border :1px solid green;
      border-radius: 50%;
-     margin:1;
+     margin:5px;
      vertical-align: middle;
  }
  .xmark{
@@ -82,18 +91,68 @@
      height: 1px;
      border :1px solid red;
      border-radius: 50%;
-     margin:1;
-     vertical-align: middle;
-    
+     margin:5px;
+     vertical-align: middle;    
  }
-    
 
- 
-  
+ .editorial{
+    width:50px;
+    height:20px;
+    margin:30px;
+    border-radius:15%;
+    padding: 5px;  
+    color:white;
+    background-color:lightskyblue;
+ }
 
+ .violet{
+    width:50px;
+    height:20px;
+    margin:30px;
+    border-radius:15%;
+    padding: 5px;  
+    color:white;
+    background-color:#7B68EE;
+ }
+.green{
+    width:50px;
+    height:20px;
+    margin:30px;
+    border-radius:15%;
+    padding: 5px;  
+    color:white;
+    background-color:#66CDAA;
+}
 
+.orange{
+    width:50px;
+    height:20px;
+    margin:30px;
+    border-radius:15%;
+    padding: 5px;  
+    color:white;
+    background-color:#FF8C00;
+}
 
-
+.pink{
+    width:50px;
+    height:20px;
+    margin:30px;
+    border-radius:15%;
+    padding: 5px;  
+    color:white;
+    background-color:#BA55D3;
+}
+.olive{
+    width:50px;
+    height:20px;
+    margin:30px;
+    border-radius:15%;
+    padding: 5px;  
+    color:white;
+    background-color:#808000;
+}
+/* fine lista */
  /* fine main */
 
  
